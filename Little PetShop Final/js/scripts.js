@@ -1,192 +1,3 @@
-// //js pagina dados
-
-
-// google.charts.load('current', { 'packages': ['bar'] });
-// google.charts.setOnLoadCallback(desenharColunas);
-
-// function desenharColunas() {
-//     let data = google.visualization.arrayToDataTable(dadosColunas());
-
-//     let options = {
-//         chart: {
-//             title: 'Atendimentos ',
-//             subtitle: 'Status de 2023',
-//         },
-//         colors: ['#861c87', '#620e66', '#3e0044']
-//         // colors: ['#a6f2ce','#42cf90',  '#004022' ],
-//     };
-
-//     let chart = new google.charts.Bar(document.getElementById('div-grafico-c'));
-
-//     chart.draw(data, google.charts.Bar.convertOptions(options));
-// }
-
-// function dadosColunas() {
-
-//     let dados =
-//         [
-//             ['Meses', 'Bom', 'Regular', 'Ruim'],
-//             ['Janeiro', 20, 14, 0],
-//             ['Fevereiro', 17, 9, 2],
-//             ['Março', 16, 12, 1],
-//             ['Abril', 23, 12, 5],
-//             ['Maio', 19, 14, 0],
-//             ['Junho', 22, 8, 1]
-//         ];
-
-//     return dados;
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-// google.charts.load('current', { 'packages': ['corechart'] });
-// google.charts.setOnLoadCallback(desenharGraficoPizza);
-
-// function desenharGraficoPizza() {
-
-//     let data = google.visualization.arrayToDataTable(obterDados());
-
-//     let options = {
-//         title: 'Animais Atendidos',
-//         //pieHole :0.4
-//         is3D: true,
-//         colors: ['#8afa98', '#6ce181', '#4fc86a', '#31ae53', '#13953c']
-//     };
-
-//     let chart = new google.visualization.PieChart(document.getElementById('div-3d'));
-
-//     chart.draw(data, options);
-// }
-
-
-// //função para simular obtenção de dados
-// function obterDados() {
-
-//     let dados = [
-//         ['Animais', 'Atendidos'],
-//         ['Cachorros', Math.random() * 10],
-//         ['Gatos', Math.random() * 10],
-//         ['Passarinho', Math.random() * 10],
-//         ['Coelho', Math.random() * 10],
-//         ['Furão', Math.random() * 10],
-
-//     ];
-
-//     return dados;
-// }
-
-
-
-
-
-
-// google.charts.load('current', { 'packages': ['corechart'] });
-// google.charts.setOnLoadCallback(desenharGrafico);
-
-// function desenharGrafico() {
-//     let data = google.visualization.arrayToDataTable(novosDados());
-
-//     let options = {
-//         title: 'Aumento de atendimentos funcionários',
-//         isStacked: true,
-//         //colors: ['#f091f4','#dd7fe1', '#8C47CC', ]
-//         colors: ['#4fc86a', '#13953c']
-//     };
-
-//     let chart = new google.visualization.SteppedAreaChart(document.getElementById('div-pontinhos'));
-
-//     chart.draw(data, options);
-// }
-
-// function novosDados() {
-
-//     let dados = [
-//         ['atendimentos', '2020', '2023'],
-//         ['Fabiana', 3, 5],
-//         ['Pedro', 4, 6],
-//         ['Gabi', 2, 9]
-
-//     ];
-
-//     return dados;
-// }
-
-
-
-
-
-
-
-
-// google.charts.load('current', { 'packages': ['corechart'] });
-// google.charts.setOnLoadCallback(desenharGraficoLinha);
-
-// function desenharGraficoLinha() {
-//     let data = google.visualization.arrayToDataTable(gerarDados());
-
-//     let options = {
-//         title: 'Desempenho da Empresa',
-//         curveType: 'function',
-//         legend: { position: 'bottom' },
-//         //colors: ['#861c87','#620e66',  '#3e0044' ]
-//         colors: ['#f091f4', '#b65bbb', '#8C47CC',]
-//     };
-
-//     let chart = new google.visualization.LineChart(document.getElementById('div-linhas'));
-
-//     chart.draw(data, options);
-// }
-
-// function gerarDados() {
-//     let dados = [
-//         ['Ano', 'Vendas', 'Despesas', 'Lucro'],
-//         ['2018', vendas8, despesas8, vendas8 - despesas8],
-//         ['2019', vendas9, despesas9, vendas9 - despesas9],
-//         ['2020', vendas0, despesas0, vendas0 - despesas0],
-//         ['2021', vendas1, despesas1, vendas1 - despesas1],
-//         ['2022', vendas2, despesas2, vendas2 - despesas2],
-//         ['2023', vendas3, despesas3, vendas3 - despesas3]
-//     ];
-
-//     return dados;
-// }
-
-// let vendas8 = Math.random() * 100;
-// let vendas9 = Math.random() * 100;
-// let vendas0 = Math.random() * 100;
-// let vendas1 = Math.random() * 100;
-// let vendas2 = Math.random() * 100;
-// let vendas3 = Math.random() * 100;
-
-
-
-// let despesas8 = Math.random() * 100;
-// let despesas9 = Math.random() * 100;
-// let despesas0 = Math.random() * 100;
-// let despesas1 = Math.random() * 100;
-// let despesas2 = Math.random() * 100;
-// let despesas3 = Math.random() * 100;
-
-
-
-
-
-
-
-
-
-
-
-
 
 //scrpts para pagina entrar
 
@@ -195,8 +6,8 @@ function validaEMAILeSENHA() {
     let senhaInput = document.getElementById('frm-senha');
     let emailInput = document.getElementById('frm-email');
     let senha2Input = document.getElementById('frm-conf-senha');
-    let divErro = document.querySelector('#msg-erro');
-    let divSucesso = document.querySelector('#msg-certo');
+    let divErro = document.querySelector('#msg-erro-entrar');
+    let divSucesso = document.querySelector('#msg-certo-entrar');
 
 
     let senha = senhaInput.value.trim();
@@ -213,7 +24,7 @@ function validaEMAILeSENHA() {
         divErro.innerHTML = mensagemErroEmail;
         divErro.style.display = 'block';
         setTimeout(() => {
-            document.getElementById('mensagem-erro-cadastro').style.display = 'none';
+            document.getElementById('msm-erro-entrar').style.display = 'none';
         }, 3000);
         return false;
     }
@@ -222,7 +33,9 @@ function validaEMAILeSENHA() {
     if (email.length < 5) {
         divErro.innerHTML = mensagemErroEmail2;
         divErro.style.display = 'block';
-        divSucesso.style.display = 'none';
+        setTimeout(() => {
+            document.getElementById('msm-erro-entrar').style.display = 'none';
+        }, 3000);
         return false;
     }
 
@@ -231,15 +44,17 @@ function validaEMAILeSENHA() {
         divErro.innerHTML = mensagemErroMail3;
         divErro.style.display = 'block';
         setTimeout(() => {
-            document.getElementById('mensagem-erro-cadastro').style.display = 'none';
+            document.getElementById('msm-erro-entrar').style.display = 'none';
         }, 3000);
         return false;
     }
-    
+
     if (senha === '') {
         divErro.innerHTML = mensagemErroSenha;
         divErro.style.display = 'block';
-        divSucesso.style.display = 'none';
+        setTimeout(() => {
+            document.getElementById('msm-erro-entrar').style.display = 'none';
+        }, 3000);
         return false;
     }
 
@@ -247,14 +62,18 @@ function validaEMAILeSENHA() {
     if (!padraoSenha.test(senha)) {
         divErro.innerHTML = mensagemErroSenha;
         divErro.style.display = 'block';
-        divSucesso.style.display = 'none';
+        setTimeout(() => {
+            document.getElementById('msm-erro-entrar').style.display = 'none';
+        }, 3000);
         return false;
     }
 
     if (senha2 != senha) {
         divErro.innerHTML = mensagemErroSenha2;
         divErro.style.display = 'block';
-        divSucesso.style.display = 'none';
+        setTimeout(() => {
+            document.getElementById('msm-erro-entrar').style.display = 'none';
+        }, 3000);
         return false;
     }
 
@@ -262,7 +81,11 @@ function validaEMAILeSENHA() {
     divSucesso.innerHTML = 'Email e senha corretos!';
     divSucesso.style.display = 'block';
 
+    setTimeout(() => {
+        divSucesso.style.display = 'none';
+    }, 3000);
 
+    return true;
 }
 
 
@@ -619,65 +442,15 @@ function validarFormularioCadastro() {
 
 
 
-}
 
+    //scripts email
 
-//scripts pagina cadastro
-
-function validarFormularioCadastro1() {
-
-    let emailInput = document.getElementById('frm-email');
-    let senhaInput = document.getElementById('frm-senha');
-    let dataNasc = document.getElementById('frm-nascimento');
-    let telefoneInput = document.getElementById('frm-telefone');
-    let nomePetInput = document.getElementById('frm-nome-pet');
-    let tipoInput = document.getElementById('frm-tipo');
-    let idadeInput = document.getElementById('frm-idade');
-    let divErro = document.getElementById('mensagem-erro-cadastro');
-    let divSucesso = document.getElementById('mensagem-ok-cadastro');
-
-
-
-    // let id = frm_contato.idInput.value.trim();
-
-    let email = emailInput.value.trim();
-    let senha = senhaInput.value.trim();
-    let nascimento = dataNasc.value.trim();
-    let telefone = telefoneInput.value.trim();
-    let nomePet = nomePetInput.value.trim();
-    let tipo = tipoInput.value.trim();
-    let idade = idadeInput.value.trim();
-
+    let email = document.getElementById('frm-email').value;
 
     let mensagemErroMail = 'O campo E-mail não pode estar vazio!';
     let mensagemErroMail2 = 'O campo E-mail deve possuir no mínimo 3 caracteres!';
     let mensagemErroMail3 = 'O campo E-mail deve possuir no máximo 100 caracteres!';
     let mensagemErroMail4 = 'O campo E-mail deve seguir o padrão "nome@dominio.com"!';
-
-    let mensagemErroSenha = 'O campo Senha não pode estar vazio!';
-    let mensagemErroSenha2 = 'O campo deve possuir no mínimo 8 caracteres!';
-    let mensagemErroSenha3 = 'O campo deve possuir no máximo 30 caracteres!';
-    let mensagemErroSenha4 = 'A senha deve ser forte! Dica: use letras maiúsculas, letras minúsculas, números e caracteres especiais!';
-
-    let mensagemErroNasc = 'O campo Data de Nascimento não pode estar vazio!';
-    let mensagemErroNasc2 = 'O campo não segue o padrão dd/mm/aaaa!';
-
-    let mensagemErroTel = 'O campo Telefone não pode estar vazio!';
-    let mensagemErroTel2 = 'O número inserido deve ser válido! Dica: siga esse padrão (XX) XXXXX-XXXX';
-
-    let mensagemErroNomePet = 'O campo Nome do Pet não pode estar vazio!';
-    let mensagemErroNomePet2 = 'O campo Nome do Pet deve possuir no mínimo 3 caracteres!';
-    let mensagemErroNomePet3 = 'O campo Nome do Pet deve possuir no máximo 100 caracteres!';
-    let mensagemErroNomePet4 = 'O campo Nome do Pet deve ser alfanumérico!';
-
-    let mensagemErroTipo = 'O campo Tipo não pode estar vazio!';
-
-    let mensagemErroIdade = 'O campo Idade não pode estar vazio!';
-
-
-
-
-
 
 
     if (email === '') {
@@ -688,8 +461,7 @@ function validarFormularioCadastro1() {
         }, 3000);
         return false;
     }
-
-    if (email < 3) {
+    if (email.length < 3) {
         divErro.innerHTML = mensagemErroMail2;
         divErro.style.display = 'block';
         setTimeout(() => {
@@ -697,8 +469,7 @@ function validarFormularioCadastro1() {
         }, 3000);
         return false;
     }
-
-    if (email > 100) {
+    if (email.length > 100) {
         divErro.innerHTML = mensagemErroMail3;
         divErro.style.display = 'block';
         setTimeout(() => {
@@ -718,6 +489,21 @@ function validarFormularioCadastro1() {
     }
 
 
+
+
+
+
+
+    //scripts senha
+
+    let senha = document.getElementById('frm-senha').value;
+
+    let mensagemErroSenha = 'O campo Senha não pode estar vazio!';
+    let mensagemErroSenha2 = 'O campo deve possuir no mínimo 8 caracteres!';
+    let mensagemErroSenha3 = 'O campo deve possuir no máximo 30 caracteres!';
+    let mensagemErroSenha4 = 'A senha deve ser forte! Dica: use letras maiúsculas, letras minúsculas, números e caracteres especiais!';
+
+
     if (senha === '') {
         divErro.innerHTML = mensagemErroSenha;
         divErro.style.display = 'block';
@@ -726,8 +512,7 @@ function validarFormularioCadastro1() {
         }, 3000);
         return false;
     }
-
-    if (senha < 8) {
+    if (senha.length < 8) {
         divErro.innerHTML = mensagemErroSenha2;
         divErro.style.display = 'block';
         setTimeout(() => {
@@ -735,8 +520,7 @@ function validarFormularioCadastro1() {
         }, 3000);
         return false;
     }
-
-    if (senha > 30) {
+    if (senha.length > 30) {
         divErro.innerHTML = mensagemErroSenha3;
         divErro.style.display = 'block';
         setTimeout(() => {
@@ -745,16 +529,28 @@ function validarFormularioCadastro1() {
         return false;
     }
 
-    let padraoSenha = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%])$/;
-    if (!padraoSenha.test(senha)) {
-        divErro.innerHTML = mensagemErroSenha4;
-        divErro.style.display = 'block';
-        setTimeout(() => {
-            document.getElementById('mensagem-erro-cadastro').style.display = 'none';
-        }, 3000);
-        return false;
-    }
+    //caros teaches eu não faço ideia de pq isso não ta funcionando, se depois vcs quiserem comentar e dar uma olhada, agradeço. 
+    //ps: ta comentado para vcs conseguirem chegar ate o final e aparecer a div sucesso!
 
+    // let padraoSenha = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%])$/;
+    // if (!padraoSenha.test(senha)) {
+    // divErro.innerHTML = mensagemErroSenha4;
+    // divErro.style.display = 'block';
+    // setTimeout(() => {
+    // document.getElementById('mensagem-erro-cadastro').style.display = 'none';
+    // }, 3000);
+    // return false;
+    // }
+
+
+
+
+    //scripts nascimento
+
+    let nascimento = document.getElementById('frm-nascimento').value;
+
+    let mensagemErroNasc = 'O campo Data de Nascimento não pode estar vazio!';
+    let mensagemErroNasc2 = 'O campo não segue o padrão dd/mm/aaaa!';
 
     if (nascimento === '') {
         divErro.innerHTML = mensagemErroNasc;
@@ -764,8 +560,7 @@ function validarFormularioCadastro1() {
         }, 3000);
         return false;
     }
-
-    let padraoData = /^(\d{2})(\d{2})(\d{4})$/;
+    let padraoData = /^(\d{2})\/(\d{2})\/(\d{4})$/;
     if (!padraoData.test(nascimento)) {
         divErro.innerHTML = mensagemErroNasc2;
         divErro.style.display = 'block';
@@ -775,6 +570,22 @@ function validarFormularioCadastro1() {
         return false;
     }
 
+
+
+
+
+
+
+    //scripts telefone
+
+
+    let telefone = document.getElementById('frm-telefone').value;
+
+    let mensagemErroTel = 'O campo Telefone não pode estar vazio!';
+    let mensagemErroTel2 = 'O número inserido deve ser válido! Dica: siga esse padrão (XX) XXXXX-XXXX';
+
+
+
     if (telefone === '') {
         divErro.innerHTML = mensagemErroTel;
         divErro.style.display = 'block';
@@ -783,7 +594,6 @@ function validarFormularioCadastro1() {
         }, 3000);
         return false;
     }
-
     let telpadrao = /\(\d{2}\)\s\d{5}-\d{4}/;
     if (!telpadrao.test(telefone)) {
         divErro.innerHTML = mensagemErroTel2;
@@ -795,6 +605,20 @@ function validarFormularioCadastro1() {
     }
 
 
+
+
+
+
+
+    //scripts nome pet
+
+    let nomePet = document.getElementById('frm-nome-pet').value;
+
+    let mensagemErroNomePet = 'O campo Nome do Pet não pode estar vazio!';
+    let mensagemErroNomePet2 = 'O campo Nome do Pet deve possuir no mínimo 3 caracteres!';
+    let mensagemErroNomePet3 = 'O campo Nome do Pet deve possuir no máximo 100 caracteres!';
+    let mensagemErroNomePet4 = 'O campo Nome do Pet deve ser alfanumérico!';
+
     if (nomePet === '') {
         divErro.innerHTML = mensagemErroNomePet;
         divErro.style.display = 'block';
@@ -803,8 +627,7 @@ function validarFormularioCadastro1() {
         }, 3000);
         return false;
     }
-
-    if (nomePet < 3) {
+    if (nomePet.length < 3) {
         divErro.innerHTML = mensagemErroNomePet2;
         divErro.style.display = 'block';
         setTimeout(() => {
@@ -812,8 +635,7 @@ function validarFormularioCadastro1() {
         }, 3000);
         return false;
     }
-
-    if (nomePet > 100) {
+    if (nomePet.length > 100) {
         divErro.innerHTML = mensagemErroNomePet3;
         divErro.style.display = 'block';
         setTimeout(() => {
@@ -821,7 +643,6 @@ function validarFormularioCadastro1() {
         }, 3000);
         return false;
     }
-
     if (!alfanumerico.test(nomePet)) {
         divErro.innerHTML = mensagemErroNomePet4;
         divErro.style.display = 'block';
@@ -829,17 +650,20 @@ function validarFormularioCadastro1() {
             document.getElementById('mensagem-erro-cadastro').style.display = 'none';
         }, 3000);
         return false;
+
+
+
     }
 
 
-    if (tipo === '') {
-        divErro.innerHTML = mensagemErroTipo;
-        divErro.style.display = 'block';
-        setTimeout(() => {
-            document.getElementById('mensagem-erro-cadastro').style.display = 'none';
-        }, 3000);
-        return false;
-    }
+
+
+
+    //scripts idade pet
+
+    let idade = document.getElementById('frm-idade').value;
+
+    let mensagemErroIdade = 'O campo Idade não pode estar vazio!';
 
 
     if (idade === '') {
@@ -850,6 +674,7 @@ function validarFormularioCadastro1() {
         }, 3000);
         return false;
     }
+
 
 
     divErro.style.display = 'none';

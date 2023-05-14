@@ -47,16 +47,13 @@
                 </div>
             </div>
             <nav>
-                <a href="index.html" class="inicio-header">HOME</a>
-                <a href="sobre.html" class="inicio-header">SOBRE</a>
-                <a href="agendamento.html" class="inicio-header">AGENDAMENTO</a>
-                <a href="contato.html" class="inicio-header">CONTATO</a>
+                <a href="index.html" id="inicio-header">HOME</a>
+                <a href="sobre.html" id="inicio-header">SOBRE</a>
+                <a href="agendamento.html" id="inicio-header">AGENDAMENTO</a>
+                <a href="contato.html" id="inicio-header">CONTATO</a>
                 <a href="graficos.html" class="inicio-header">DADOS</a>
-
-
             </nav>
         </div>
-        <!-- <p style="border-color: #311260 ; border-style: solid; text-align: center;"></p> -->
 
     </header>
     <header id="header-responsivo">
@@ -90,11 +87,10 @@
                     </div>
                     <a href="cadastro.html" id="cadastro"> Cliente novo? <span id="efeito-legal"> Cadastre-se</span></a>
                     <nav id="mini-nav">
-                        <a href="index.html" class="inicio-header">HOME</a>
-                        <a href="sobre.html" class="inicio-header">SOBRE</a>
-                        <a href="agendamento.html" class="inicio-header">AGENDAMENTO</a>
-                        <a href="contato.html" class="inicio-header">CONTATO</a>
-                        <a href="graficos.html" class="inicio-header">DADOS</a>
+                        <a href="index.html" id="inicio-header">HOME</a>
+                        <a href="sobre.html" id="inicio-header">SOBRE</a>
+                        <a href="agendamento.html" id="inicio-header">AGENDAMENTO</a>
+                        <a href="contato.html" id="inicio-header">CONTATO</a>
                     </nav>
                 </div>
             </div>
@@ -109,61 +105,40 @@
     </div>
     <span id="seu-agendamento">★ Faça seu Agendamento ★</span>
     <div id="agendamento-container">
-        <form id="frm-frm-agendamento" action="#">
+        <form id="FRMagendamento" name="FRMagendamento" action="#">
             <div id="frm-container">
                 <div id="frm-labels">
                     <p class="p-agendamento"><label for="frm-nome">Qual o seu nome?</label></p>
-                    <!--Aparecer uma bolinha com um ponto de exclamação para mostrar o que está errado-->
-                    <p class="p-agendamento"><label for="frm-email">Como podemos nos comunicar?</label></p>
+                    <p class="p-agendamento"><label for="frm-nome">E do seu companheiro?</label></p>
                     <p class="p-agendamento"><label for="frm-data">Qual o melhor dia para você?</label></p>
                     <p class="p-agendamento"><label for="frm-horário">E horário?</label></p>
-                    <p class="p-agendamento"><label for="frm-banhotosa">Do que seu companheiro precisa?</label></p>
-                    <p class="p-agendamento"><label for="frm-tamanho">Qual o tamanho dele?</label></p>
-                    <p class="p-agendamento"><label for="frm-pet">Ele é um...?</label></p>
+                    <p class="p-agendamento"><label for="frm-banhotosa">Do que seu parceiro precisa?</label></p>
                     <p class="p-agendamento"><label for="frm-mensagem">Alguma observação importante<br> sobre seu
                             amigo?</label></p>
                 </div>
                 <div id="frm-fields">
-                    <p class="p-agendamento"><input id="frm-nome-agendamento" type="text" placeholder="Nome do cliente"
-                            required /></p>
-                    <p class="p-agendamento"><input id="frm-email-agendamento" type="email"
-                            placeholder="Digite seu melhor email" required /></p>
-                    <p class="p-agendamento"><input id="frm-data-agendamento" type="date" required /></p>
-                    <p class="p-agendamento"><input id="frm-horário" type="time" required /></p>
-                    <p class="p-ponto" id="banho-p">
-                        <input type="radio" name="BanhoTosa" value="Banho">
+                    <p class="p-agendamento"><input id="inName" name="inName" class="agend" type="text" placeholder="Nome completo" required /></p>
+                    <p class="p-agendamento"><input id="inBicho" name="inBicho" class="agend" type="text" placeholder="Nome do pet"required /></p>
+                    <p class="p-agendamento"><input id="inDate" name="inDate" class="agend" type="date" required /></p>
+                    <p class="p-agendamento"><input id="inHour" name="inHour" class="agend" type="time" required /></p>
+                    <p class="p-ponto" id="banho-p"> 
+                        <input type="radio" id="inBanho" name="BanhoTosa" value="Banho">
+                        <!--Tirar no css tipo-p  porte-p  frm-email-agendamento-->
                         <span class="nada">Banho</span>
-                        <input type="radio" name="BanhoTosa" value="Tosa">
+                        <input type="radio" id="inTosa" name="BanhoTosa" value="Tosa">
                         <span class="nada">Tosa</span>
-                        <input type="radio" name="BanhoTosa" value="Banho e Tosa">
+                        <input type="radio" id="inBanhoTosa" name="BanhoTosa" value="Banho e Tosa">
                         <span class="nada">Banho e Tosa</span>
                     </p>
-                    <p class="p-ponto" id="porte-p">
-                        <input type="radio" name="Tamanho" value="Pequeno">
-                        <span class="nada">Pequeno</span>
-                        <input type="radio" name="Tamanho" value="Médio">
-                        <span class="nada">Médio</span>
-                        <input type="radio" name="Tamanho" value="Grande">
-                        <span class="nada">Grande</span>
-                    </p>
-                    <p class="p-ponto" id="tipo-p">
-                        <input type="radio" name="Pet" value="Cachorro">
-                        <span class="nada">Cachorro</span>
-                        <input type="radio" name="Pet" value="Gato">
-                        <span class="nada">Gato</span>
-                        <input type="radio" name="Pet" value="Outro">
-                        <span class="nada">Outro</span>
-                    </p>
                     <p class="p-textarea">
-                        <textarea class="frm-msg" name="Mensagem" rows="3"
-                            placeholder="Toda e qualquer informação é importante para o melhor atendimento"></textarea>
+                        <textarea class="frm-msg" id="textarea" name="inTextarea" name="Mensagem" rows="3" placeholder="Todo e qualquer detalhe é importante para o melhor atendimento"></textarea>
                     </p>
                 </div>
             </div>
         </form>
-        <div id="buttons">
-            <button id="btn-enviar" type="submit" formaction="#">Já pode mandar!</button>
-            <button id="btn-apagar" type="reset">Mudei de ideia</button>
+        <div id="buttons"> <!--Essa merda não tá funcionando-->
+            <button id="btn-enviar" name="btnEnviar" type="button" onclick="validarDados();">Agendado</button>
+            <button id="btn-apagar" name="btnEnviar" type="reset" >Deixa quieto</button>
         </div>
     </div>
 
@@ -182,39 +157,7 @@
     </footer>
 
 </body>
-<script src="js/scripts.js"></script>
+<script src="js/scripts-agendamento.js"></script>
 
 </html>
 
-<!--Nome
-Email
-Data
-Horário
-Serviço
-Tamanho
-Tipo de pet
-obs importante
-botões
-
-De escrever: (id msm)
-frm-nome-agendamento
-frm-email-agendamento
-frm-data-agendamento
-frm-horário-agendamento
-
-De escolher: (name)
-BanhoTosa e value="Banho"
-BanhoTosa e value="Tosa"
-BanhoTosa e value="Banho e Tosa"
-
-Tamanho e value="Pequeno"
-Tamanho e value="Médio"
-Tamanho e value="Grande"
-
-Pet e value="Cachorro"
-Pet e value="Gato"
-Pet e value="Outro"
-
-De escrever, textarea: (class)
-frm-msg e Mensagem
--->

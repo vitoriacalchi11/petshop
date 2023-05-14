@@ -1,403 +1,8 @@
-/* Estilos index - Tablet */
 
 
-@media(max-width: 820px) {
-    #gif {
-        display: none;
-    }
 
-    #gif-mobile {
-        display: flex;
-        width: 450px;
-        height: 450px;
-        margin: 40px auto;
-        justify-content: center;
-    }
-
-    #linha {
-        display: flex;
-        background-color: #BBF4D4;
-        margin-bottom: 40px;
-        justify-content: center;
-    }
-
-    #btn-agendamento {
-        text-decoration: none;
-        color: #311260;
-        background-color: #8A77E6;
-        text-align: center;
-        border-radius: 10px;
-        margin: 50px 30px 50px 10px;
-        border: 1px solid black;
-        padding: 5px 20px;
-        box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
-        font-size: 24px;
-    }
-
-    #btn-agendamento:hover {
-        background-color: #BBF4D4;
-    }
-
-    #texto-linha {
-        margin: 30px 30px 30px 50px;
-        font-size: 24px;
-    }
-
-    .h2-home {
-        font-family: 'extra-bold';
-        font-size: 28px;
-        text-align: center;
-        padding-top: 30px;
-    }
-
-    #objetivo p {
-        font-size: 22px;
-    }
-
-    #interna {
-        display: flex;
-        margin-bottom: 100px;
-    }
-
-    #objetivo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-
-    #btn-saiba {
-        text-decoration: none;
-        color: #311260;
-        background-color: #8A77E6;
-        text-align: center;
-        border-radius: 10px;
-        margin: 70px auto 0px auto;
-        border: 1px solid black;
-        padding: 15px 40px;
-        box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
-        font-size: 20px;
-    }
-
-    #btn-saiba:hover {
-        background-color: #BBF4D4;
-    }
-
-    #c1 {
-        width: 200px;
-        height: 180px;
-        border-radius: 30px;
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-
-    #c2 {
-        width: 150px;
-        height: 140px;
-        border-radius: 30px;
-        margin-left: 30px;
-        margin-top: 20px;
-    }
-
-    #c3 {
-        width: 100px;
-        height: 100px;
-        border-radius: 30px;
-        margin-top: 40px;
-        margin-bottom: 30px;
-        margin-left: 120px;
-    }
-
-    #g4 {
-        width: 140px;
-        height: 135px;
-        border-radius: 30px;
-        margin-left: 130px;
-        margin-top: 50px;
-    }
-
-    #g5 {
-        width: 150px;
-        height: 130px;
-        border-radius: 30px;
-        margin-left: 70px;
-    }
-
-    #colum3 {
-        flex-direction: column;
-        width: 35%;
-    }
-
-    #colum2 {
-        margin-left: 20px;
-    }
-
-    #promoçoes {
-        background-color: #c5ffde;
-        height: 700px;
-        margin-bottom: 100px;
-        justify-content: space-between;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    #produtos-p {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .img-produtos {
-        width: 112px;
-        height: 112px;
-        border-radius: 90px;
-        box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.4);
-    }
-
-    .produtos {
-        background-color: white;
-        border: 15px solid #311260;
-        border-radius: 20px;
-        width: 266px;
-        height: 405px;
-        margin-top: 40px;
-        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.4);
-        text-align: center;
-        padding: 15px 20px 0px 20px;
-    }
-
-    .conteudo {
-        text-align: center;
-        font-size: 15px;
-    }
-
-    .preço {
-        font-size: 30px;
-        font-family: 'semi-bold';
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .alinhamento {
-        margin: 0px 10px;
-    }
-
-    #div-bola {
-        margin-left: 0px;
-    }
-
-    #div-raçao {
-        margin-right: 0px;
-    }
-}
-
-
-/* Estilos index - Celular */
-
-
-@media(max-width: 390px) {
-    #gif {
-        display: none;
-    }
-
-    #gif-mobile {
-        display: flex;
-        width: 350px;
-        height: 350px;
-        margin: 40px auto;
-        justify-content: center;
-    }
-
-    #linha {
-        display: flex;
-        background-color: #BBF4D4;
-        margin-bottom: 40px;
-        justify-content: center;
-    }
-
-    #btn-agendamento {
-        text-decoration: none;
-        color: #311260;
-        background-color: #8A77E6;
-        text-align: center;
-        border-radius: 10px;
-        margin: 25px 15px 25px 10px;
-        border: 1px solid black;
-        padding: 5px 20px;
-        box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
-        font-size: 16px;
-    }
-
-    #btn-agendamento:hover {
-        background-color: #BBF4D4;
-    }
-
-    #texto-linha {
-        margin: 15px 15px 15px 25px;
-        font-size: 13px;
-    }
-
-    .h2-home {
-        font-family: 'extra-bold';
-        font-size: 18px;
-        text-align: center;
-        padding-top: 30px;
-    }
-
-    #objetivo p {
-        font-size: 14px;
-    }
-
-    #interna {
-        display: flex;
-        margin-bottom: 100px;
-    }
-
-    #objetivo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    #btn-saiba {
-        text-decoration: none;
-        color: #311260;
-        background-color: #8A77E6;
-        text-align: center;
-        border-radius: 10px;
-        margin: 50px auto 0px auto;
-        border: 1px solid black;
-        padding: 10px 20px;
-        box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
-        font-size: 12px;
-    }
-
-    #btn-saiba:hover {
-        background-color: #BBF4D4;
-    }
-
-    #c1 {
-        width: 100px;
-        height: 90px;
-        border-radius: 30px;
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-
-    #c2 {
-        width: 90px;
-        height: 80px;
-        border-radius: 30px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
-
-    #c3 {
-        width: 50px;
-        height: 50px;
-        border-radius: 20px;
-        margin-top: 40px;
-        margin-bottom: 30px;
-        margin-left: 60px;
-    }
-
-    #g4 {
-        width: 70px;
-        height: 65px;
-        border-radius: 20px;
-        margin-left: 60px;
-        margin-top: 50px;
-    }
-
-    #g5 {
-        width: 80px;
-        height: 80px;
-        border-radius: 30px;
-        margin-left: 15px;
-    }
-
-    #colum3 {
-        flex-direction: column;
-        width: 35%;
-    }
-
-    #colum2 {
-        margin-left: 0px;
-    }
-
-    #promoçoes {
-        background-color: #c5ffde;
-        height: 600px;
-        margin-bottom: 100px;
-        justify-content: center;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    #produtos-p {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .img-produtos {
-        width: 80px;
-        height: 80px;
-        border-radius: 90px;
-        box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.4);
-    }
-
-    .produtos {
-        background-color: white;
-        border: 10px solid #311260;
-        border-radius: 20px;
-        width: 266px;
-        height: 320px;
-        margin-top: 30px;
-        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.4);
-        text-align: center;
-        padding: 10px 15px 0px 15px;
-    }
-
-    .conteudo {
-        text-align: center;
-        font-size: 10px;
-    }
-
-    .preço {
-        font-size: 18px;
-        font-family: 'semi-bold';
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .alinhamento {
-        margin: 0px;
-    }
-
-    #div-bola {
-        margin-left: 0px;
-    }
-
-    #div-raçao {
-        margin-right: auto;
-        margin-left: auto;
-        padding: 15px 15px 0px 15px;
-    }
-}
-
-
-
-/* Estilos Sobre - Tablet*/
-
-@media(max-width: 820px) {
-    body {
-        font-size: 20px;
-    }
-
+@media(min-width: 481px) and (max-width: 1024px) {
+    /* header responsivo */
     header {
         display: none;
         flex-direction: none;
@@ -570,134 +175,297 @@
         display: flex;
     }
 
-    #container-sobre {
-        max-width: 100vw;
-        padding: 0px 10px;
-    }
+/* header responsivo */
+/*-------------------------------------------------------*/
+/* Estilos index - Tablet */
 
-    #container-sobre .sobre-h1 {
-        font-size: 40px;
-    }
-
-    #pequeno {
-        font-size: 23px;
-    }
-
-    #sobre-nos {
-        margin: 40px 40px 160px 40px;
-    }
-
-    #historia p {
-        padding: 2px 40px 0px 0px;
-        font-size: 20px;
-    }
-
-    #fotoveteninario {
-        border-radius: 7px;
-        height: 200px;
-        margin-right: 30px;
-        margin-top: 2px;
-    }
-
-    #topo-funcionarios {
-        width: auto;
-    }
-
-    #funcionarios {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .box-funcionario {
-        width: 330px;
-        margin: auto;
-        border-radius: 80px;
-        padding: 3px 10px;
-        margin-bottom: 30px;
-    }
-
-    .box-funcionario h2 {
-        font-size: 25px;
-    }
-
-    .paragrafo-funcionarios {
-        font-size: 17px;
-    }
-
-    #nossos-servicos {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-    }
-
-    .box-servicos {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .paragrafo-funcionarios {
-        display: flex;
-        justify-content: space-between;
-        text-align: left;
-    }
-
-    .box-servicos p {
-        padding: 0px 0px 0px 50px;
-        margin-right: 220px;
-    }
-
-    #texto-servicos {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .box-servicos img {
-        height: 200px;
-        margin: 10px;
-    }
-
-    .servico-h2 {
-        padding-left: 50px;
-        padding-bottom: 0px;
-    }
-
-    #tosa {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-    #tabela {
-        width: 800px;
-    }
-
-    #btn-agende p {
-        padding: 0px 100px 0px;
-        font-size: 22px;
-    }
-
-    #btn-agende {
-        padding-left: 60px;
-    }
-
-    #botao-agende {
-        padding: 10px 5px;
-        font-size: 20px;
-        margin-right: 50px;
-    }
-
-    #footer-final {
-        font-size: 25px;
-    }
+#gif {
+    display: none;
 }
 
-/* Estilos sobre - Celular */
+#gif-mobile {
+    display: block;
+    width: 700px;
+    margin: 30px auto;
+}
 
-@media(max-width: 390px) {
-    body {
-        font-size: 20px;
-    }
+#texto-linha {
+    font-size: 35px;
+    padding: 40px 60px;
+    margin: 0;
+}
+#btn-agendamento {
+    margin: 70px 60px 70px 10px;
+    font-size: 40px;
+}
 
+#g5 {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 150px;
+    height: 160px;
+    border-radius: 30px;
+}
+
+#colum2 {
+    margin-left: 10px;
+}
+
+#g4 {
+    margin-left: 40px;
+    margin-top: 50px;
+    width: 200px;
+    height: 210px;
+    border-radius: 40px;
+}
+
+#c3 {
+    margin-left: 80px;
+    width: 130px;
+    height: 140px;
+    border-radius: 30px;
+}
+#c1 {
+    margin-bottom: 70px;
+    width: 250px;
+    height: 260px;
+    border-radius: 40px;
+}
+
+#c2 {
+    width: 180px;
+    height: 190px;
+    border-radius: 40px;
+}
+
+#objetivo {
+    margin: 20px 30px 20px 20px;
+}
+#objetivo p {
+    font-size: 25px;
+}
+.h2-home {
+    font-size: 45px;
+}
+
+#btn-saiba {
+    font-size: 30px;
+}
+
+#produtos-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 20px;
+}
+.produtos {
+    margin: auto;
+    padding: 10px 10px 190px 10px;
+}
+
+.conteudo {
+    font-size: 20px;
+}
+
+#promoçoes {
+    padding-bottom: 140px;
+    margin-bottom: 30px;
+}
+footer p {
+    font-size: 25px;
+}
+
+/* Estilos index - Tablet */
+/*-------------------------------------------------------*/
+/* Estilos Sobre - Tablet*/
+
+#sobre-nos {
+    margin: 50px 60px;
+}
+
+#historia p {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+#fotoveteninario {
+    margin-right: 15px;
+}
+
+#funcionarios {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragrafo-funcionarios {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.box-funcionario {
+    margin: 30px 180px;
+    padding-bottom: 100px;
+}
+
+.box-funcionario img {
+    height: 280px;
+}
+#nossos-servicos {
+    display: flex;
+    flex-direction: column;
+}
+
+#tosa {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box-servicos {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-servicos p {
+    padding-left: 10px;
+}
+
+.box-servicos img {
+    width: 300px;
+    height: 300px;
+}
+
+.servico-h2 {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 100px;
+}
+
+#h2-tosa {
+    text-align: right;
+    margin-right: 10px;
+}
+
+#p-tosa {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#tabela {
+    width: 767px;
+}
+
+#btn-agende p {
+    font-size: 20px;
+    padding: 30px 10px 30px 40px;
+}
+
+#botao-agende {
+    margin: 20px 20px;
+}
+
+/* Estilos Sobre - Tablet*/
+/*-------------------------------------------------------*/
+/* Estilos Agendamento - Tablet */
+
+
+
+/* Estilos Agendamento - Tablet */
+/*-------------------------------------------------------*/
+/* Estilos Contato - Tablet */
+
+.fale-conosco {
+    margin: auto;
+}
+.p-contato {
+    margin: 10px;
+}
+
+#form-contato {
+    margin: auto;
+}
+
+/* Estilos Contato - Tablet */
+/*-------------------------------------------------------*/
+/* Estilos Dados - Tablet */
+
+#topo-dados {
+    margin: 20px 30px;
+}
+
+#graficosc3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#graficospl {
+    display: flex;
+    flex-direction: column;
+}
+
+#div-grafico-c {
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#div-3d {
+    margin: auto;
+}
+
+#grafico-pontinho {
+    margin: auto;
+}
+
+#grafico-linhas {
+    margin: auto;
+}
+
+/* Estilos Dados - Tablet */
+/*-------------------------------------------------------*/
+/* Estilos Entrar - Tablet */
+
+
+#gato {
+    width: 470px;
+}
+.input {
+    margin: 27px 0;
+}
+
+/* Estilos Entrar - Tablet */
+/*-------------------------------------------------------*/
+/* Estilos Cadastro - Tablet */
+
+#cachorro {
+    width: 470px;
+
+}
+
+/* Estilos Cadastro - Tablet */
+/*-------------------------------------------------------*/
+/* Estilos Agendamento - Tablet */
+
+#img-dog {
+    width: 99%;
+}
+
+#agendamento-container {
+    margin: auto;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+/* Estilos Agendamento - Tablet */
+/*-------------------------------------------------------*/
+}
+
+
+
+@media(max-width: 480px) {
+   
+   /* header responsivo */
     header {
         display: none;
         flex-direction: none;
@@ -874,851 +642,400 @@
         display: flex;
         width: 40px;
         margin-top: 30px;
-        margin-left: 60px;
+        margin-left: 35px;
     }
 
-    #container-sobre {
-        max-width: 100vw;
-        padding: 0px 10px;
-    }
+/* header responsivo */
+/*-------------------------------------------------------*/
+/* Estilos index - Celular */
 
-    #container-sobre .sobre-h1 {
-        font-size: 20px;
-    }
-
-    #pequeno {
-        font-size: 13px;
-    }
-
-    #sobre-nos {
-        margin: 20px 20px 80px 20px;
-    }
-
-    #historia p {
-        padding: 2px 10px 0px 0px;
-        font-size: 15px;
-    }
-
-    #fotoveteninario {
-        border-radius: 7px;
-        height: 130px;
-        margin-right: 0px;
-        margin-top: 2px;
-    }
-
-    #topo-funcionarios {
-        width: auto;
-    }
-
-    #funcionarios {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .box-funcionario {
-        width: 330px;
-        margin: auto;
-        border-radius: 80px;
-        padding: 3px 10px;
-        margin-bottom: 30px;
-    }
-
-    .box-funcionario h2 {
-        font-size: 25px;
-    }
-
-    .paragrafo-funcionarios {
-        font-size: 17px;
-    }
-
-    #nossos-servicos {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-    }
-
-    .box-servicos {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .paragrafo-funcionarios {
-        display: flex;
-        justify-content: space-between;
-        text-align: left;
-    }
-
-    .box-servicos p {
-        padding: 0px 0px 0px 40px;
-        margin-right: 0px;
-        font-size: 15px;
-    }
-
-    .box-servicos img {
-        height: 130px;
-        margin: 10px;
-    }
-
-    .box-servicos .servico-h2 {
-        padding-left: 40px;
-        padding-bottom: 0px;
-        font-size: 15px;
-    }
-
-    #texto-servicos {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #tosa {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-    #tosa h2 {
-        padding-right: 40px;
-        padding-left: 10px;
-    }
-
-    #tosa p {
-        padding-right: 40px;
-        padding-left: 10px;
-    }
-
-    #tabela {
-        width: 370px;
-    }
-
-    #btn-agende p {
-        padding: 0px 10px 0px;
-        font-size: 14px;
-    }
-
-    #btn-agende {
-        padding-left: 60px;
-    }
-
-    #botao-agende {
-        padding: 10px 5px;
-        font-size: 20px;
-        margin-right: 20px;
-    }
-
-    #footer-final {
-        font-size: 13px;
-    }
+#gif {
+    display: none;
 }
 
-/* Estilos Agendamento - celular */
-
-@media(max-width: 390px) {
-    #header-responsivo {
-        display: flex;
-    }
-
-    #img-dog {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        width: 390px;
-        margin-top: 20px;
-    }
-
-    #agendamento-container {
-        padding: 0px 0px 50px 0px;
-        text-align: center;
-        margin: 0px auto;
-    }
-
-    #seu-agendamento {
-        color: #000000;
-        font-family: 'conteudo';
-        font-size: 18px;
-        margin: 50px auto 20px auto;
-    }
-
-    #formulario {
-        display: flex;
-        justify-content: center;
-        background-color: #BBFADD;
-        border-radius: 10px;
-        padding: 10px;
-        height: 380px;
-        width: 340px;
-    }
-
-    #frm-container {
-        display: flex;
-        justify-content: center;
-        background-color: #BBFADD;
-        border: #004022 solid 3px;
-        border-radius: 10px;
-        padding: 0px;
-        height: 380px;
-        width: 340px;
-    }
-
-    #frm-container select,
-    .p-agendamento {
-        width: 90px;
-        height: 30px;
-        margin-left: 5px;
-        margin-top: 15px;
-        margin-bottom: 0px;
-
-    }
-
-    .p-ponto {
-        margin: 15px 0px 0px 0px;
-        height: 25px;
-    }
-
-    label {
-        margin: auto;
-    }
-
-    #frm-labels {
-        text-align: left;
-        padding-right: 0px;
-        font-size: 10px;
-
-    }
-
-    #frm-fields {
-        text-align: left;
-        padding-right: 10px;
-        font-size: 5x;
-        font-family: 'conteudo';
-        width: 50%;
-    }
-
-    #frm-nome-agendamento {
-        border: #004022 solid 2.5px;
-        border-radius: 5px;
-        background-color: #BBFADD;
-        padding: 5px;
-        font-family: 'conteudo';
-        height: 10px;
-        width: 160px;
-    }
-
-    #frm-email-agendamento {
-        border: #004022 solid 2.5px;
-        border-radius: 5px;
-        background-color: #BBFADD;
-        padding: 5px;
-        font-family: 'conteudo';
-        height: 10px;
-        width: 160px;
-    }
-
-    #frm-data-agendamento {
-        border: #004022 solid 2.5px;
-        border-radius: 5px;
-        background-color: #BBFADD;
-        padding: 5px;
-        font-family: 'conteudo';
-        height: 10px;
-        width: 160px;
-    }
-
-    #frm-horário {
-        border: #004022 solid 2.5px;
-        border-radius: 5px;
-        background-color: #BBFADD;
-        padding: 5px;
-        font-family: 'conteudo';
-        height: 10px;
-        width: 160px;
-    }
-
-    .nada {
-        font-family: 'conteudo';
-        font-size: 10px;
-        border: none;
-    }
-
-    .frm-msg {
-        border: #004022 solid 2.5px;
-        border-radius: 5px;
-        background-color: white;
-        padding: 5px;
-        resize: none;
-        height: 20px;
-        width: 125px;
-        font-family: 'conteudo';
-        font-size: small;
-        margin: 25px 20px 20px 20px;
-    }
-
-
-    ::placeholder {
-        color: #786363;
-        opacity: 50%;
-    }
-
-    #frm-msg {
-        resize: none;
-        width: 300px;
-        height: 49px;
-        border: none;
-        margin: 0px 18px;
-    }
-
-    button {
-        width: 150px;
-        height: 35px;
-        margin-left: 15px;
-        margin-right: 15px;
-        font-size: 16px;
-        border: 0;
-    }
-
-    #btn-enviar {
-        margin-top: 10px;
-        background-color: #5ce1a3;
-        color: #002514;
-        border-radius: 5px;
-        border: #004022 2.5px solid;
-        size: 90px;
-    }
-
-    #btn-apagar {
-        background-color: #a6f2ce;
-        color: #42cf90;
-        border-radius: 5px;
-        border: #42cf90 2.5px solid;
-    }
+#gif-mobile {
+    display: block;
+    width: 350px;
+    margin: 30px auto;
 }
 
-/* Estilos Agendamento - Tablet */
-
-@media(max-width: 820px) {
-    #header-responsivo {
-        display: flex;
-    }
-
-    #img-dog {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        width: 390px;
-        margin-top: 20px;
-    }
-
-    #agendamento-container {
-        padding: 0px 30px 50px 25px;
-        text-align: center;
-        margin: 0px auto;
-    }
+#texto-linha {
+    font-size: 15px;
+    padding: 20px 20px;
+    margin: 0;
+}
+#btn-agendamento {
+    margin: 30px 30px 30px 10px;
+    font-size: 20px;
 }
 
-/* Estilos Contato - Tablet */
+#g5 {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
 
-@media(max-width: 820px) {
-    #header-responsivo {
-        display: flex;
-    }
+#colum2 {
+    margin-left: 0;
+}
 
-    .fale-conosco {
-        background-color: #BBF4D4;
-        padding: 2px 5px 2px 5px;
-        text-align: center;
-        color: #000000;
-        width: 85%;
-        margin: auto;
-    }
+#g4 {
+    margin-left: 10px;
+    margin-top: 0px;
+    width: 90px;
+    height: 100px;
+    border-radius: 20px;
+}
 
-    .fale-conosco .h2-contato {
-        opacity: 82%;
-    }
+#c3 {
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 70px;
+    height: 80px;
+    border-radius: 15px;
+}
+#c1 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    width: 120px;
+    height: 130px;
+    border-radius: 25px;
+}
 
-    .h2-contato {
-        font-size: 25px;
-    }
+#c2 {
+    width: 80px;
+    height: 90px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
 
-    #contato-conteudo {
-        display: flex;
-        padding: 45px 0px;
-    }
+#objetivo {
+    margin: 10px 15px 10px 5px;
+}
+#objetivo p {
+    font-size: 15px;
+}
+.h2-home {
+    font-size: 16px;
+}
 
-    .p-contato {
-        font-size: 16px;
-    }
+#btn-saiba {
+    font-size: 10px;
+    margin-top: 20px;
+}
 
-    #dados-contato {
-        width: 50%;
-        margin-right: 30px;
-        margin-left: 30px;
-        background-color: #72D4A6;
-        border-radius: 15px;
-        padding: 0px 20px;
-    }
+#produtos-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 10px;
 
-    #dados-contato .p-contato {
-        text-align: center;
-        color: #311260;
-    }
+}
+.produtos {
+    margin: auto;
+    padding: 10px 5px 0px 5px;
+    border: 10px solid #7f1eff;
+}
 
-    #dados-contato .h2-contato {
-        text-align: center;
-        background-color: #72D4A6;
-        color: #311260;
-    }
+.conteudo {
+    font-size: 10px;
+}
 
-    #mapa {
-        width: 40%;
-        margin-left: 20px;
-        margin-right: 40px;
-        border-radius: 4%;
-    }
+.img-produtos {
+    width: 90px;
+    height: 90px;
+}
 
-    #form-contato {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 30px;
-        width: 80%;
-        margin: 10px auto;
-    }
+.preço {
+    font-size: 15px;
+}
 
-    #form-contato input,
-    textarea {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 17px;
-        margin: 5px 0px;
-        border-radius: 10px;
-        border: solid 1px lightslategray;
-        padding: 5px 10px;
-    }
+#promoçoes {
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+}
+footer p {
+    font-size: 13px;
+}
 
-    textarea {
-        resize: none;
-    }
+/* Estilos index - Celular */
+/*-------------------------------------------------------*/
+/* Estilos Sobre - Celular */
 
-    #enviar-btn {
-        background-color: #311260;
-        color: white;
-        border-radius: 10px;
+#sobre-nos {
+    margin: 20px 30px;
+}
 
-    }
+#pequeno {
+    font-size: 10px;
+}
 
-    #apagar-btn {
-        background-color: #311260;
-        color: white;
-    }
+#container-sobre .sobre-h1 {
+    font-size: 20px;
+}
 
-    #frm-buttons {
-        display: flex;
-        flex-direction: row;
-    }
+.hr-historia {
+    border: solid 2px #7E46CF;
+}
+
+#historia p {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    font-size: 11px;
+}
+#fotoveteninario {
+    margin-right: 15px;
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+#funcionarios {
+    display: flex;
+    flex-direction: column;
+}
+
+#topo-funcionarios h1 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+.paragrafo-funcionarios {
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+}
+
+.box-funcionario {
+    margin: 30px 30px;
+    padding-bottom: 50px;
+}
+
+.box-funcionario img {
+    height: 180px;
+}
+#nossos-servicos {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#topo-servicos p {
+    font-size: 16px;
+}
+
+#tosa {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box-servicos {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-servicos p {
+    padding-left: 10px;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.box-servicos img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.servico-h2 {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.box-servicos .servico-h2 {
+    font-size: 20px;
+}
+#h2-tosa {
+    text-align: right;
+    margin-right: 10px;
+}
+
+#p-tosa {
+    text-align: right;
+    padding-right: 10px;
+}
+
+#tabela {
+    width: 370px;
+}
+
+#btn-agende p {
+    font-size: 15px;
+    padding: 30px 10px 30px 20px;
+}
+
+#botao-agende {
+    margin: 30px 10px;
+}
+
+
+/* Estilos Sobre - Celular */
+/*-------------------------------------------------------*/
+/* Estilos Agendamento - Celular */
+
+
+
+/* Estilos Agendamento - Celular */
+/*-------------------------------------------------------*/
+/* Estilos Contato - Celular */
+
+.fale-conosco {
+    margin: auto;
+}
+.p-contato {
+    margin: 10px;
+}
+
+#form-contato {
+    margin: auto;
+}
+
+#dados-contato {
+    margin: auto;
+    width: 90%;
+}
+
+#contato-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mapa {
+    margin: 20px auto;
 }
 
 /* Estilos Contato - Celular */
+/*-------------------------------------------------------*/
+/* Estilos Dados - Celular */
 
-@media(max-width: 390px) {
-    .fale-conosco h1 {
-        font-size: 20px;
-    }
-
-    #contato-conteudo {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #dados-contato {
-        width: 70%;
-        margin-right: auto;
-        margin-left: auto;
-        background-color: #72D4A6;
-        border-radius: 15px;
-        padding: 0px 40px;
-    }
-
-    .h2-contato {
-        font-size: 22px;
-    }
-
-    #mapa {
-        width: 70%;
-        height: 250px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
-        border-radius: 4%;
-    }
-
-    #frm-buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+#topo-dados {
+    margin: 25px 30px;
 }
 
-/* Estilos Entrar - Tablet */
-
-@media(max-width: 820px) {
-    #container-entrar {
-        display: flex;
-        background-color: rgb(255, 255, 255);
-        flex-direction: column;
-    }
-
-    #interna-entrar {
-        display: flex;
-        flex-direction: column;
-        background-color: #8A77E6;
-        height: 1024px;
-        width: 720px;
-        margin: auto;
-        border-radius: 40px;
-        margin-bottom: 80px;
-    }
-
-    #gato {
-        width: 720px;
-        height: 720px;
-        display: flex;
-        margin: auto;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        border-radius: 40px;
-    }
-
-    #logo-entrar {
-        width: 338px;
-        height: 170px;
-        margin: 10px auto;
-    }
-
-    #texto-entrar {
-        text-align: center;
-        font-family: 'conteudo';
-        padding-bottom: 25px;
-        color: #311260;
-    }
-
-    .entar-cadastro {
-        font-size: 36px;
-        font-family: 'extra-bold';
-        color: #311260;
-    }
-
-    #dados-entrar {
-        background-color: #CAC0F6;
-        margin: 0px auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 15px;
-        width: 80%;
-    }
-
-    .entar-cadastro-h2 {
-        font-size: 35px;
-        color: aliceblue;
-        margin: 70px 0px 50px 0px;
-    }
-
-    #frm-entrar {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .input {
-        display: block;
-        padding: 18px 0;
-        padding-left: 0px;
-        margin: 27px auto 27px auto;
-        border-radius: 5px;
-        background-color: #CAC0F6;
-        color: #4D4D4D;
-        /* text-align: left; */
-        font-size: 14px;
-        width: 100%;
-    }
-
-    #botao-entrar {
-        text-decoration: none;
-        color: #311260;
-        background-color: #8A77E6;
-        text-align: center;
-        border-radius: 10px;
-        margin: 70px auto 70px 120px;
-        border: 1px solid black;
-        padding: auto;
-        box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
-        font-size: 24px;
-    }
-
-    #perfil-entrar {
-        width: 180px;
-        height: 180px;
-    }
+#conteudo-dados p {
+    font-size: 13px;
 }
 
+h1 {
+    font-size: 20px;
+}
+
+#graficosc3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#graficospl {
+    display: flex;
+    flex-direction: column;
+}
+
+#div-grafico-c {
+    margin: auto;
+    margin-bottom: 100px;
+    width: 90%;
+    padding: 0;
+}
+
+#div-3d {
+    margin: auto;
+    width: 90%;
+}
+
+#grafico-pontinho {
+    margin: auto;
+    width: 90%;
+}
+
+#grafico-linhas {
+    margin: auto;
+    width: 90%;
+}
+
+/* Estilos Dados - Celular */
+/*-------------------------------------------------------*/
 /* Estilos Entrar - Celular */
 
-@media(max-width: 390px) {
-    #interna-entrar {
-        display: flex;
-        flex-direction: column;
-        background-color: #8A77E6;
-        height: 1000px;
-        width: 320px;
-        border-radius: 40px;
-        margin-bottom: 80px;
-    }
-
-    #botao-entrar {
-        text-decoration: none;
-        color: #311260;
-        background-color: #8A77E6;
-        text-align: center;
-        border-radius: 10px;
-        margin: 70px auto 70px auto;
-        border: 1px solid black;
-        padding: auto;
-        box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
-        font-size: 24px;
-    }
-
-    #gato {
-        width: 320px;
-        height: 320px;
-        display: flex;
-        margin: auto;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        border-radius: 40px;
-    }
-
-    #logo-entrar {
-        width: 238px;
-        height: 120px;
-        margin: 10px auto;
-    }
-
-    .entar-cadastro {
-        font-size: 26px;
-        font-family: 'extra-bold';
-        color: #311260;
-    }
-
-    #dados-entrar {
-        background-color: #CAC0F6;
-        margin: 0px auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 15px;
-        width: 80%;
-        height: 580px;
-    }
+#gato {
+    width: 200px;
 }
+.input {
+    margin: 27px 0;
+}
+/* Estilos Entrar - Celular */
+/*-------------------------------------------------------*/
+/* Estilos Cadastro - Celular */
 
-/* Estilos Cadastro - tablet */
-
-@media(max-width: 820px) {
-    #container-cadastro {
-        display: flex;
-        background-color: rgb(255, 255, 255);
-        flex-direction: column;
-    }
-
-    #interna-cadastro {
-        display: flex;
-        flex-direction: column;
-        background-color: #8A77E6;
-        height: 1370px;
-        width: 700px;
-        border-radius: 40px;
-        margin: auto;
-    }
-
-    #cachorro {
-        width: 700px;
-        height: 920px;
-        display: flex;
-        margin: 60px 20px 60px 60px;
-        border-radius: 40px;
-    }
-
-    #logo-cadastro {
-        width: 338px;
-        height: 160px;
-        margin: 10px auto;
-    }
-
-    #texto {
-        text-align: center;
-        font-family: 'conteudo';
-        padding-bottom: 25px;
-        color: #311260;
-    }
-
-    h1 {
-        font-size: 36px;
-        font-family: 'extra-bold';
-        color: #311260;
-    }
-
-    #dados-cadastro {
-        background-color: #CAC0F6;
-        margin: 0px auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 15px;
-        width: 79%;
-    }
-
-    .entrar-cadastro-h2 {
-        font-size: 35px;
-        color: aliceblue;
-        margin: 70px 0px 50px 0px;
-        font-family: 'semi-bold';
-    }
-
-    #frm-contato {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .input-cadastro {
-        display: block;
-        padding: 18px 0;
-        padding-left: 20px;
-        ;
-        margin: 27px auto 27px auto;
-        border-radius: 5px;
-        background-color: #CAC0F6;
-        color: #4D4D4D;
-        /* text-align: left; */
-        font-size: 14px;
-        width: 100%;
-    }
-
-    #botao-cadastre {
-        text-decoration: none;
-        color: #311260;
-        background-color: #8A77E6;
-        text-align: center;
-        border-radius: 10px;
-        margin: 70px auto;
-        border: 1px solid black;
-        padding: auto;
-        box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
-        font-size: 24px;
-
-    }
-
-    #botao-cadastre a:hover {
-        background-color: #BBF4D4;
-        color: #311260;
-    }
+#cachorro {
+    display: none;
 }
 
 /* Estilos Cadastro - Celular */
+/*-------------------------------------------------------*/
+/* Estilos Agendamento - Celular */
 
-@media(max-width: 390px) {
-    #container-cadastro {
-        display: flex;
-        background-color: rgb(255, 255, 255);
-        flex-direction: column;
-    }
+#img-dog {
+    width: 99%;
+}
 
-    #interna-cadastro {
-        display: flex;
-        flex-direction: column;
-        background-color: #8A77E6;
-        height: 1370px;
-        width: 340px;
-        border-radius: 40px;
-        margin: auto;
-    }
+#agendamento-container {
+    margin: auto;
+    padding: 0;
+    padding-bottom: 20px;
+}
+#frm-container select, .p-agendamento {
+    width: 140px;
+    height: 40px;
+    margin: 5px 0px;
+}
 
-    #cachorro {
-        width: 340px;
-        height: 500px;
-        display: flex;
-        margin: auto;
-        border-radius: 40px;
-    }
+label {
+    font-size: 13px;
+}
 
-    #logo-cadastro {
-        width: 300px;
-        height: 160px;
-        margin: 10px auto;
-    }
+.p-ponto {
+    width: 180px;
+    height: 48.99px;
+    margin: 18px 0px;
+}
 
-    #texto {
-        text-align: center;
-        font-family: 'conteudo';
-        padding-bottom: 25px;
-        color: #311260;
-        font-size: 16px;
-    }
+.frm-msg {
 
-    h1 {
-        font-size: 20px;
-        font-family: 'extra-bold';
-        color: #311260;
-    }
+    padding: 5px;
+    resize: none;
+    height: 40px;
+    width: 140px;
+    font-family: 'conteudo';
+    font-size: small;
+}
 
-    #dados-cadastro {
-        background-color: #CAC0F6;
-        margin: 0px auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 15px;
-        width: 79%;
-    }
+#seu-agendamento {
+    font-size: 23px;
+    margin: 50px auto 20px auto;
+}
 
-    .entrar-cadastro-h2 {
-        font-size: 20px;
-        color: aliceblue;
-        margin: 70px 0px 50px 0px;
-        font-family: 'semi-bold';
-    }
-
-    #frm-contato {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .input-cadastro {
-        display: block;
-        padding: 18px 0;
-        padding-left: 20px;
-        ;
-        margin: 27px auto 27px auto;
-        border-radius: 5px;
-        background-color: #CAC0F6;
-        color: #4D4D4D;
-        /* text-align: left; */
-        font-size: 14px;
-        width: 100%;
-    }
-
-    #botao-cadastre {
-        text-decoration: none;
-        color: #311260;
-        background-color: #8A77E6;
-        text-align: center;
-        border-radius: 10px;
-        margin: 70px auto;
-        border: 1px solid black;
-        padding: auto;
-        box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.2);
-        font-size: 24px;
-
-    }
-
-    #botao-cadastre a:hover {
-        background-color: #BBF4D4;
-        color: #311260;
-    }
+/* Estilos Agendamento - Celular */
+/*-------------------------------------------------------*/
 }
