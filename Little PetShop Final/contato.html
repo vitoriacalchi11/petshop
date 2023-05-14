@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilosmobile.css" />
+    <link rel="icon" type="image/icon" href="Imagens/Little_Pet_Shop-Logo__4_-removebg-preview.png" />
+    <title>Little PetShop</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo-header" src="Imagens/Little Pet Shop-Logo (3).png" alt="imagem logo" />
+        <div id="nav">
+            <div id="perfil">
+                <div id="menu-dropdown">
+                    <div class="dropdown">
+                        <a href="#" class="dropbtn">
+                            <img id="perfil-foto" src="Imagens/Minha conta (1).png" alt="perfil" />
+                        </a>
+                        <div class="dropdown-content">
+                            <a href="entrar.html" id="btn-entrar">
+                                Entrar
+                            </a>
+                            <div id="pai">
+                                <div class="hr">
+                                    <hr>
+                                </div>
+                                <div id="ou">
+                                    ou
+                                </div>
+                                <div class="hr">
+                                    <hr>
+                                </div>
+                            </div>
+                            <a href="cadastro.html" id="cadastro"> Cliente novo? <span id="efeito-legal">
+                                    Cadastre-se</span></a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <img id="carrinho" src="Imagens/Carrinhocompras.png" alt="carrinho" />
+                </div>
+            </div>
+            <nav>
+                <a href="index.html" class="inicio-header">HOME</a>
+                <a href="sobre.html" class="inicio-header">SOBRE</a>
+                <a href="agendamento.html" class="inicio-header">AGENDAMENTO</a>
+                <a href="contato.html" class="inicio-header">CONTATO</a>
+                <a href="graficos.html" class="inicio-header">DADOS</a>
+
+
+            </nav>
+        </div>
+        <!-- <p style="border-color: #311260 ; border-style: solid; text-align: center;"></p> -->
+
+    </header>
+    <header id="header-responsivo">
+        <img id="logo-header2" src="imagens/Little Pet Shop-Logo (3).png" alt="imagem logo" />
+        <div id="nav2">
+            <div id="perfil2">
+                <div id="menu-dropdown2">
+                    <div class="dropdown2">
+                        <a href="#" class="dropbtn2">
+                            <img id="menu-responsive" src="Imagens/Menu.png" alt="Menu" />
+                            <div class="dropdown-content2">
+                                <div id="topo-dropdown">
+                        </a>
+                        <img id="perfil-foto2" src="imagens/Perfil-removebg-preview.png" alt="perfil" />
+                        </a>
+                        <img id="carrinho2" src="Imagens/Carrinhocompras.png" alt="carrinho" />
+                    </div>
+                    <a href="entrar.html" id="btn-entrar2">
+                        Entrar
+                    </a>
+                    <div id="pai2">
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                        <div id="ou2">
+                            ou
+                        </div>
+                        <div class="hr2">
+                            <hr>
+                        </div>
+                    </div>
+                    <a href="cadastro.html" id="cadastro"> Cliente novo? <span id="efeito-legal"> Cadastre-se</span></a>
+                    <nav id="mini-nav">
+                        <a href="index.html" class="inicio-header">HOME</a>
+                        <a href="sobre.html" class="inicio-header">SOBRE</a>
+                        <a href="agendamento.html" class="inicio-header">AGENDAMENTO</a>
+                        <a href="contato.html" class="inicio-header">CONTATO</a>
+                        <a href="graficos.html" class="inicio-header">DADOS</a>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </header>
+    <div id="container-contato">
+        <div class="fale-conosco">
+            <div id="fale-conosco2">
+                <h1>QUER FALAR CONOSCO?<h1>
+            </div>
+        </div>
+        <div id="contato-conteudo">
+            <div id="dados-contato">
+                <h2 class="h2-contato"> ★ Entre em contato ★</h2>
+                <p class="p-contato">Preencha o formulário para nos enviar uma mensagem.
+                </p>
+                <form id="form-contato" action="#">
+                    <input id="frm-empresa" type="text" placeholder="Nome do usúario" required />
+                    <input id="frm-email" type="email" placeholder="nome@dominio.com.br" required />
+                    <input id="frm-telefone" type="tel" placeholder="(14) 98117-8843" required />
+                    <textarea id="frm-mensagem" rows="8" placeholder="Sua mensagem (Opcional)"></textarea>
+                    <div id="frm-buttons">
+                        <button id="enviar-btn" type="submit" formaction="#" 
+                        onclick="validarFormulario();">Enviar
+                        </button>
+                        <button id="apagar-btn" type="reset">Apagar</button>
+                    </div>
+                </form>
+            </div>
+            <div id="mapa">
+                <iframe id="frame-mapa" src="https://goo.gl/maps/Hyj4qD9mkfQvpzxM8" width="100%" height="100%"
+                    style="border: 0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-                   downgrade">
+                </iframe>
+            </div>
+        </div>
+        <div class="mensagens">
+            <div id="msg-erro-contato">Mensagem de erro:</div>
+            <div id="msg-sucesso">Enviado com sucesso!</div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div id="imagem-footer">
+            <img id="logo-footer" src="Imagens/Logo-footer.png" alt="Logotipo do Site" />
+        </div>
+        <div id="redes-sociais">
+            <a href="contato.html"><img id="whatsapp" src="Imagens/whatsapp.png" alt="Acesso ao Whatsapp"></a>
+            <a href="contato.html"><img id="instagram" src="Imagens/instagram.png" alt="Acesso ao Instagram"></a>
+            <a href="contato.html"><img id="facebook" src="Imagens/facebook.png" alt="Acesso ao Facebook"></a>
+        </div>
+        <p>
+            Copyright© 2023 Little Pet Shop - Todos os direitos reservados
+        </p>
+    </footer>
+
+</body>
+<script src="js/scripts.js"></script>
+
+</html>

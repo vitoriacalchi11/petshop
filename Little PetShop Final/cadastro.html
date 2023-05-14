@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilosmobile.css" />
+    <link rel="icon" type="image/icon" href="Imagens/Little_Pet_Shop-Logo__4_-removebg-preview.png" />
+</head>
+
+<body> <!--Rever imagens, botão, tamanho, cor, hover, add botão para voltar para a home...-->
+
+    <div id="container-cadastro">
+        <img id="cachorro" src="Imagens/animals (2).png">
+        <div id="interna-cadastro">
+            <Img id="logo-cadastro" src="Imagens/Little Pet Shop-Logo (3).png" />
+            <div id="texto">
+                <h1 class="entrar-cadastro">Bem-vindo(a) ao Little Pet Shop</h1>
+                <p>
+                    O melhor tratamento para seu pet
+                </p>
+            </div>
+            <div id="dados-cadastro">
+                <h2 class="entrar-cadastro-h2">Cliente novo? Cadastre-se</h2>
+                <form id="frm-contato" action="#" name="frm_contato">
+                    <input class="input-cadastro" id="frm_id" type="text" placeholder="ID" required />
+                    <input class="input-cadastro" id="frm-nome" type="text" placeholder="Nome Completo" required />
+                    <input class="input-cadastro" id="frm-endereco" type="text" placeholder="Endereço" required />
+                    <input class="input-cadastro" id="frm-cidade" type="text" placeholder="Cidade" required />
+                    <input class="input-cadastro" id="frm-uf" type="text" placeholder="UF" required />
+                    <input class="input-cadastro" id="frm-email" type="email" placeholder="Digite seu e-mail"
+                        required />
+                    <input class="input-cadastro" id="frm-senha" type="text" placeholder="Digite sua senha" required />
+                    <input class="input-cadastro" id="frm-nascimento" type="text" placeholder="Data de nascimento"
+                        required />
+                    <input class="input-cadastro" id="frm-telefone" type="tel" placeholder="(99)99999-9999" required />
+                    <h3 id="h3-cad">Sobre seu Pet</h3>
+                    <input class="input-cadastro" id="frm-nome-pet" type="text" placeholder="Nome do seu Pet"
+                        required />
+                    <select name="frm-tipo">
+                        <option>Tipo de animal</option>
+                        <option>Cachorro</option>
+                        <option>Gato</option>
+                        <option>Aves</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    <input class="input-cadastro" id="frm-idade" type="text" placeholder="Idade do seu Pet" required />
+                    <div id="frm-buttons">
+                        <button id="botao-cadastre" type="button" formaction="#"
+                            onclick="validarFormularioCadastro()">Cadastre-se</button>
+
+                        <div class="mensagens">
+                            <div id="mensagem-erro-cadastro">Mensagem de erro:</div>
+                            <div id="mensagem-ok-cadastro">Cadastro realizado com sucesso!</div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div> <!--Fim div container-->
+
+
+</body>
+<script src="js/scripts.js"></script>
+
+</html>
